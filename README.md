@@ -1,0 +1,3 @@
+# ICBS Frontend
+
+npm start
