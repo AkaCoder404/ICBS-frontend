@@ -12,13 +12,17 @@ import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 import Footer from "components/footers/MiniCenteredFooter";
 import Header from "components/headers/light.js";
 
-import { MathematicsCard, TheoreticalPhysicsCard, TechnologyCard } from "utils/constants";
+import OneColWithSteps from "components/features/OneColWithSteps.js";
+
+import { MathematicsCard, TheoreticalPhysicsCard, TechnologyCard, FundamentalScienceAwardDesc2, BestPaperAwardTitle } from "utils/constants";
+import { FundamentalScienceAwardTitle, FundamentalScienceAwardDesc, FundamentalScienceAwardRequirements } from "utils/constants";
+import { BestPaperAwardDesc, BestPaperAwardDesc2, BestPaperAwardCategories } from "utils/constants";
+
 
 // Tailwind CSS Styles
 const HeadingInfoContainer = tw.div`flex flex-col items-center`;
 // const HeadingDescription = tw.p`mt-4 font-medium text-gray-600 text-center max-w-sm`;
 const HeadingTitle = tw.h2`text-4xl sm:text-5xl font-black tracking-wide text-center`
-
 
 export default () => (
   <AnimationRevealPage disabled>
@@ -42,29 +46,44 @@ export default () => (
         <HeadingTitle>Founders</HeadingTitle>
     </HeadingInfoContainer> */}
     
+    <HeadingInfoContainer>
+        <HeadingTitle>Awards</HeadingTitle>
+    </HeadingInfoContainer>
+
+    <OneColWithSteps 
+      heading={FundamentalScienceAwardTitle}
+      description={FundamentalScienceAwardDesc}
+      description2 = {FundamentalScienceAwardDesc2}
+      steps={FundamentalScienceAwardRequirements}
+      subheading={"Award"}
+    />
+
     <ProfileThreeColGrid 
       heading = "Mathematics"
-      subheading = "Founders"
+      subheading = "Co-chaired by"
       description = ""
       cards = {MathematicsCard}
     />
     <ProfileThreeColGrid 
       heading = "Theoretical Physics"
-      subheading = "Founders"
+      subheading = "Co-chaired by"
       description = ""
       cards = {TheoreticalPhysicsCard}
     />
     <ProfileThreeColGrid 
       heading = "Information Science and Technology"
-      subheading = "Founders"
+      subheading = "Co-chaired by"
       description = ""
       cards = {TechnologyCard}
     />
 
-    <HeadingInfoContainer>
-        <HeadingTitle>Awards</HeadingTitle>
-    </HeadingInfoContainer>
-
+  <OneColWithSteps 
+      heading={BestPaperAwardTitle}
+      description={BestPaperAwardDesc}
+      description2 = {BestPaperAwardDesc2}
+      steps={BestPaperAwardCategories}
+      subheading={"Award"}
+    />
 
     <Testimonial />
     {/* <ThreeColumnWithProfileImage /> */}
