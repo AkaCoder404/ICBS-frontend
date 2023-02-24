@@ -6,6 +6,8 @@ import ImageDAVIDSrc from "images/people/DAVID.jpg";
 import ImageNIMASrc from "images/people/NIMA.jpg";
 import ImageQIONGHAISrc from "images/people/QIONGHAI.jpg";
 import ImageCHISrc from "images/people/CHI.jpg";
+import ImageQIUCHENGTONGSrc from "images/home/QiuChenTong.png"
+import imageIVENSrc from "images/people/IVEN.jpg"
 
 // Homepage card constants
 const ShingTungYao = {
@@ -264,3 +266,29 @@ export const BestPaperAwardCategories = [
     description: "Artificial Intelligence, Robotics Science and System, Signal Processing, Theoretical Computer Science, Graphics and Geometric Computing, Biophotonics, Cryptography and Information Security, Bioinformatics, Computational Optics, and Big Data Technology"
   }
 ]
+
+
+// Testimonials
+export const testimonials = [
+  {
+    imageSrc: ImageSHINGTUNGSrc,
+    quote:
+      "Welcome to the International Congress of Basic Science. Best minds around the world will come together this July to understand the fundamental science in nature. We hope Best Paper Award will set a standard for the field of fundamental science，including mathematics, physics, computer science and engineer. We will give grand awards to major leaders of the fundamental science. ",
+    customerName: "Shing-Tung Yau",
+    customerTitle: "Chair professor of Tsinghua University"
+  },
+  {
+    imageSrc: ImageCAUCHERSrc,
+    quote:
+      "The International Congress of Basic Science is different from any other events. It's not just a gathering of big names. Top researchers from mathematics, physics, computer science, technology will discuss their current and top-quality work. I encourage young people and researchers to attend this event either online or in person. ",
+    customerName: "Caucher Birkar",
+    customerTitle: "Professor of Tsinghua University"
+  },
+  {
+    imageSrc: imageIVENSrc,
+    quote:
+      "The International Congress of Basic Science will be the first major scientific gathering of researchers from many countries of different ages since the pandemic. It's a major opportunity to meet new mathematics and learn about recent development.",
+    customerName: "Iven Fesenko",
+    customerTitle: "Number Theory Mathematician"
+  },
+];

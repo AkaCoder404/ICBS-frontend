@@ -14,8 +14,12 @@ import {
 import { ReactComponent as SvgDotPattern } from "images/svg/dot-pattern.svg";
 import Iccm2019Src from "images/home/iccm2019.png";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
-import VideoTestSrc from "images/videos/icbs.mp4";
+import DefaultVideoEmbed from "helpers/DefaultVideoEmbed.js"; 
+import XGPlayerVideoEmbed from "helpers/XGPlayerVideoEmbed.js";
+// import VideoTestSrc from "images/videos/icbs.mp4";
 
+
+const HomePageVideo = "../images/videos/icbs.mp4";
 
 // Tailwind CSS
 // const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
@@ -43,7 +47,7 @@ const Value = tw.div`font-bold text-lg sm:text-xl lg:text-2xl text-secondary-500
 const Key = tw.div`font-medium text-primary-700`;
 
 const DecoratorBlob = styled(SvgDotPattern)((props) => [
-  tw`w-20 h-20 absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-500 -z-10`,
+  tw`w-20 h-20 absolute right-0 top-0 transform translate-x-1/2 translate-y-1/2 fill-current text-primary-500 -z-10 mr-10 -mt-4`,
 ]);
 
 export default ({
@@ -51,7 +55,7 @@ export default ({
   heading = (
     <>
       {/* The <span tw="text-primary-500">9th</span> International Congress of Chinese Mathematicians(ICCM2022). */}
-      The first <span tw="text-primary-500">International Congress</span> in
+      The first <span tw="text-primary-500">International Congress</span> of
       Basic Science (ICBS)
     </>
   ),
@@ -118,11 +122,20 @@ export default ({
 
          <ImageColumn>
           {/* {imageInsideDiv ? <Image imageSrc={imageSrc} css={imageCss} /> : <img src={imageSrc} css={imageCss} alt="" />} */}
-          <ResponsiveVideoEmbed css={imageCss}
-              url = {VideoTestSrc}
+          {/* <ResponsiveVideoEmbed css={imageCss}
+              url = {HomePageVideo}
+              background = "transparent"
+          /> */}
+          {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
+          <DefaultVideoEmbed css={imageCss}
+              url = {HomePageVideo}
               background = "transparent"
           />
-          {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
+          {/* <XGPlayerVideoEmbed css={imageCss}
+              url = {HomePageVideo}
+              background = "transparent"
+          /> */}
+          <DecoratorBlob />
         </ImageColumn>
       </OneColumn>
     </Container>

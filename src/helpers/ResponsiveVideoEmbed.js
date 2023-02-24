@@ -1,5 +1,6 @@
 /* A simple iframe wrapper that makes 16:9 responsive embed */
 import React from 'react';
+import VideoPoster from "../images/videos/icbs_poster.jpg";
 
 export default ({ url, background="white", className="video" }) => {
   return (
@@ -19,19 +20,20 @@ export default ({ url, background="white", className="video" }) => {
           position: "absolute",
           top: 0,
           left: 0,
-          // width: "100%",
-          // height: "100%",
-          align: "center",
+          // align: "center",
           width: "100%",
           height: "100%",
           // paddingTop: 50,
           // paddingBottom: "56.25%" /* 16:9 */,
           background: background,
-          border: "none"
+          // border: "none"
         }}
         src={url}
+        // frameborder="0"
+        // poster={VideoPoster}
         loading="eager"
       />
     </div>
   );
 };
+
