@@ -30,10 +30,10 @@ const CardImageContainer = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-56 xl:h-64 bg-center bg-cover relative rounded-t`}
 `;
-const CardHoverOverlay = styled(motion.div)`
-  background-color: rgba(255, 255, 255, 0.5);
-  ${tw`absolute inset-0 flex justify-center items-center`}
-`;
+// const CardHoverOverlay = styled(motion.div)`
+//   background-color: rgba(255, 255, 255, 0.5);
+//   ${tw`absolute inset-0 flex justify-center items-center`}
+// `;
 // const CardButton = tw(PrimaryButtonBase)`text-sm`;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
@@ -45,12 +45,12 @@ const CardContent = styled.div`
   9
 `
 
-const Text = styled.div`
-  ${tw`text-center text-gray-800`}
-  p {
-    ${tw`mt-2 leading-loose`}
-  }
-`;
+// const Text = styled.div`
+//   ${tw`text-center text-gray-800`}
+//   p {
+//     ${tw`mt-2 leading-loose`}
+//   }
+// `;
 
 export default ({
   heading = "ICCM Forum",

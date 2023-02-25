@@ -42,7 +42,7 @@ export default ({
   description = <>Online Registration Deadline : To be announced...<p/>Onsite Registration is not accepted</>,
   submitButtonText = "Suspension of registration",
   // formAction = "/#/signup",
-  formAction = "http://iccm.tsinghua.edu.cn/iccm2022/manager/user/register/",
+  formAction = "http://iccm.tsinghua.edu.cn/manager/user/register/",
   formMethod = "get",
   textOnLeft = true,
 }) => {
@@ -59,7 +59,7 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
-            {/* <Link href="/iccm2022/#/register"> View more </Link> */}
+            {/* <Link href="/#/register"> View more </Link> */}
             <Form action={formAction} method={formMethod}>
               <Input type="email" name="email" placeholder="Email Address" />
               <Input type="text" name="name" placeholder="English Name" />

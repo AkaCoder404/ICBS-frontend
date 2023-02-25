@@ -60,7 +60,7 @@ export default ({
   submitButtonText = "Log In",
   SubmitButtonIcon = LoginIcon,
   forgotPasswordUrl = "#",
-  signupUrl = "http://iccm.tsinghua.edu.cn/iccm2022/manager/user/register/"
+  signupUrl = "http://iccm.tsinghua.edu.cn/manager/user/register/"
   // signupUrl = "?email=&name=&gender=&affiliation=/#/signup/",
 
 }) => (

@@ -38,7 +38,7 @@ export default ({
   imageSrc = serverIllustrationImageSrc,
 }) => {
   const logoLink = (
-    <LogoLink href="/iccm2022/#/">
+    <LogoLink href="/#/">
       <img src={logoImageSrc} alt="Logo" />
       Treact
     </LogoLink>

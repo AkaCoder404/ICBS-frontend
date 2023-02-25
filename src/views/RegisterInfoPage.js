@@ -114,7 +114,7 @@ export default ({
 
             <h1>Contact</h1>
             <p>Please contact us if you have any questions about the registration fee.</p>
-            <p>Email: <a href="/iccm2022/#/download">iccm2022@mail.tsinghua.edu.cn</a></p>
+            <p>Email: <a href="/#/download">iccm2022@mail.tsinghua.edu.cn</a></p>
 
           </Text>
         </ContentWithPaddingXl>

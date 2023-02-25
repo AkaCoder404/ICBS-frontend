@@ -38,33 +38,33 @@ const Heading = styled.h1`
 export default () => {
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/iccm2022/#/committees">
+      <NavLink href="/#/committees">
         Committees
       </NavLink>
-      <NavLink href="/iccm2022/#/awards">
+      <NavLink href="/#/awards">
         Awards
       </NavLink>
-      <NavLink href="/iccm2022/#/speakers">
+      <NavLink href="/#/speakers">
         Speakers
       </NavLink>
-      <NavLink href="/iccm2022/#/program">
+      <NavLink href="/#/program">
         Program
       </NavLink>
-      <NavLink href="/iccm2022/#/news">
+      <NavLink href="/#/news">
         News
       </NavLink>
-      <NavLink href="/iccm2022/#/registration">
+      <NavLink href="/#/registration">
         Registration
       </NavLink>
-      <NavLink href="/iccm2022/#/logistics">
+      <NavLink href="/#/logistics">
         Logistics
       </NavLink>
-      <NavLink href="/iccm2022/#/download">
+      <NavLink href="/#/download">
         Download
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
-      <PrimaryLink href="http://iccm.tsinghua.edu.cn/iccm2022/manager/user/login/">
+      <PrimaryLink href="http://iccm.tsinghua.edu.cn/manager/user/login/">
         Login
       </PrimaryLink>
     </NavLinks>

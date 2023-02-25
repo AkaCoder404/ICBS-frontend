@@ -6,7 +6,7 @@ import ImageDAVIDSrc from "images/people/DAVID.jpg";
 import ImageNIMASrc from "images/people/NIMA.jpg";
 import ImageQIONGHAISrc from "images/people/QIONGHAI.jpg";
 import ImageCHISrc from "images/people/CHI.jpg";
-import ImageQIUCHENGTONGSrc from "images/home/QiuChenTong.png"
+// import ImageQIUCHENGTONGSrc from "images/home/QiuChenTong.png"
 import imageIVENSrc from "images/people/IVEN.jpg"
 
 // Homepage card constants

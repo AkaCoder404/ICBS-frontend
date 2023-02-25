@@ -45,7 +45,7 @@ export default () => {
       <Container tw="-mx-8 -mt-8 pt-8 px-8">
         <Content2Xl>
           <NavRow>
-            <LogoLink href="/iccm2022/#/">
+            <LogoLink href="/#/">
               <img src={logo} alt="" />
               Treact
             </LogoLink>

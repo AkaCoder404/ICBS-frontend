@@ -54,35 +54,35 @@ export default () => {
               {/* <Column>
               <LinkList>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/">Home</Link>
+              <Link href="/#/">Home</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/committees">Committees</Link>
+              <Link href="/#/committees">Committees</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/awards">Awards</Link>
+              <Link href="/#/awards">Awards</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/speakers">Speakers</Link>
+              <Link href="/#/speakers">Speakers</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/program">Program</Link>
+              <Link href="/#/program">Program</Link>
               {/* </LinkListItem>
               </LinkList>
               </Column>
               <Column>
               <LinkList>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/news">News</Link>
+              <Link href="/#/news">News</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/registration">Registration</Link>
+              <Link href="/#/registration">Registration</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/logistics">Logistics</Link>
+              <Link href="/#/logistics">Logistics</Link>
               {/* </LinkListItem>
               <LinkListItem> */}
-              <Link href="/iccm2022/#/download">Download</Link>
+              <Link href="/#/download">Download</Link>
               {/* </LinkListItem>
               </LinkList>
               </Column> */}

@@ -55,9 +55,9 @@ export default (
     headingText = "Sign Up",
     submitButtonText = "Sign Up",
     SubmitButtonIcon = SignUpIcon,
-    tosUrl = "/iccm2022/#/register",
-    signInUrl = "http://iccm.tsinghua.edu.cn/iccm2022/manager/user/login/",
-    formAction = "http://iccm.tsinghua.edu.cn/iccm2022/backend/api/register/",
+    tosUrl = "/#/register",
+    signInUrl = "http://iccm.tsinghua.edu.cn/manager/user/login/",
+    formAction = "http://iccm.tsinghua.edu.cn/backend/api/register/",
     formMethod = "post",
   },
 ) => (
