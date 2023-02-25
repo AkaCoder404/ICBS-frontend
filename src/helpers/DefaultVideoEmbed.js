@@ -12,7 +12,8 @@ export default (url, background = "white", className = "video") => {
       style={{
         // position: "relative",
         background: background,
-        paddingBottom: "56.25%" /* 16:9 */,
+        // paddingBottom: "56.25%" /* 16:9 */,
+        paddingBottom: "40.25%",
         paddingTop: 25,
         height: 0,
       }}

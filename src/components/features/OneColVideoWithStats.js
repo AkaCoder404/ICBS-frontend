@@ -2,7 +2,7 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
+// import { css } from "styled-components/macro"; //eslint-disable-line
 
 // Custom Components
 import {
@@ -13,9 +13,9 @@ import {
 // Images
 import { ReactComponent as SvgDotPattern } from "images/svg/dot-pattern.svg";
 import Iccm2019Src from "images/home/iccm2019.png";
-import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
+// import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 import DefaultVideoEmbed from "helpers/DefaultVideoEmbed.js"; 
-import XGPlayerVideoEmbed from "helpers/XGPlayerVideoEmbed.js";
+// import XGPlayerVideoEmbed from "helpers/XGPlayerVideoEmbed.js";
 // import VideoTestSrc from "images/videos/icbs.mp4";
 
 

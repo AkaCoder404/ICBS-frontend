@@ -90,22 +90,6 @@ export default ({
             <CardContainer key={index}>
               <Card className="group" href={card.url} initial="rest" whileHover="hover" animate="rest">
                 <CardImageContainer imageSrc={card.imageSrc}>
-                  <CardHoverOverlay
-                    variants={{
-                      hover: {
-                        opacity: 1,
-                        height: "auto"
-                      },
-                      rest: {
-                        opacity: 0,
-                        height: 0
-                      }
-                    }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <Text><p>{card.text}</p></Text>
-                    {/* <CardButton>Learn more</CardButton> */}
-                  </CardHoverOverlay>
                 </CardImageContainer>
               </Card>
               <CardContent>
@@ -119,3 +103,21 @@ export default ({
     </Container>
   );
 };
+
+
+// {/* <CardHoverOverlay
+//                     variants={{
+//                       hover: {
+//                         opacity: 1,
+//                         height: "auto"
+//                       },
+//                       rest: {
+//                         opacity: 0,
+//                         height: 0
+//                       }
+//                     }}
+//                     transition={{ duration: 0.3 }}
+//                   >
+//                     <Text><p>{card.text}</p></Text>
+//                     {/* <CardButton>Learn more</CardButton> */}
+//                   </CardHoverOverlay> */}

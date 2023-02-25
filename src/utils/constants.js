@@ -292,3 +292,39 @@ export const testimonials = [
     customerTitle: "Number Theory Mathematician"
   },
 ];
+
+
+// Host and Organizers
+export const host = [
+  {
+    title: "北京市人民政府",
+    description: "The People's Government of Beijing Municipality"
+  },
+  {
+    title: "中国科学技术协会",
+    description: "China Association for Science and Technology"
+  },
+  {
+    title: "世界华人数学家大会联盟",
+    description: "International Consortium of Chinese Mathematicians"
+  },
+]
+
+export const organizers = [
+  {
+    title: "北京市怀柔区人民政府",
+    description: "Huairou District People's Government of Beijing Municipality"
+  },
+  {
+    title: "北京怀柔科学城管理委员会",
+    description: "Beijing Huairou National Comprehensive Science Center"
+  },
+  {
+    title: "清华大学丘成桐数学科学中心",
+    description: "Yau Mathematical Sciences Center, Tsinghua University"
+  },
+  {
+    title: "北京雁栖湖应用数学研究院",
+    description: "Yanqi Lake Beijing Institute of Mathematical Sciences and Applications"
+  }
+]
