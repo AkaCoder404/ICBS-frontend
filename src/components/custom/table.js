@@ -6,31 +6,16 @@ import tw from "twin.macro";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import OneColWithSteps from "components/features/OneColWithSteps.js";
-import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid.js";
 
-import {
-  MathematicsCard,
-  TheoreticalPhysicsCard,
-  TechnologyCard,
-  FundamentalScienceAwardDesc2,
-  BestPaperAwardTitle,
-} from "utils/constants";
+
 import {
   FundamentalScienceAwardTitle,
   FundamentalScienceAwardDesc,
+  FundamentalScienceAwardDesc2,
   FundamentalScienceAwardRequirements,
-} from "utils/constants";
-import {
-  BestPaperAwardDesc,
-  BestPaperAwardDesc2,
-  BestPaperAwardCategories,
 } from "utils/constants";
 
 // Images
-// import ImageGoldSrc from "images/awards/Gold.png"
-// import ImageSilverSrc from "images/awards/Silver.png"
-// importc ImageChernPrizeSrc from "images/awards/ChernPrize.png"
-// import ImageInternationalSrc from "images/awards/International.png"
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg/svg-decorator-blob-8.svg";
@@ -73,33 +58,6 @@ export default ({
             description={FundamentalScienceAwardDesc}
             description2={FundamentalScienceAwardDesc2}
             steps={FundamentalScienceAwardRequirements}
-            subheading={"Award"}
-          />
-
-          <ProfileThreeColGrid
-            heading="Mathematics"
-            subheading="Co-chaired by"
-            description=""
-            cards={MathematicsCard}
-          />
-          <ProfileThreeColGrid
-            heading="Theoretical Physics"
-            subheading="Co-chaired by"
-            description=""
-            cards={TheoreticalPhysicsCard}
-          />
-          <ProfileThreeColGrid
-            heading="Theoretical Computer and Information Sciences"
-            subheading="Co-chaired by"
-            description=""
-            cards={TechnologyCard}
-          />
-
-          <OneColWithSteps
-            heading={BestPaperAwardTitle}
-            description={BestPaperAwardDesc}
-            description2={BestPaperAwardDesc2}
-            steps={BestPaperAwardCategories}
             subheading={"Award"}
           />
 

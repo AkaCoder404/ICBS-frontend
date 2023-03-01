@@ -1,9 +1,9 @@
 import React from 'react';
 
-import VideoMp4 from "../images/videos/CAUCHERBIRKAR.mp4";
-import VideoWebm from "../images/videos/CAUCHERBIRKAR.webm";
-import VideoOgg from "../images/videos/CAUCHERBIRKAR.ogg";
-import VideoPoster from "../images/videos/CAUCHERBIRKAR_poster.jpg";
+import VideoMp4 from "../images/videos/IVANFESENKO.mp4";
+import VideoWebm from "../images/videos/IVANFESENKO.webm";
+import VideoOgg from "../images/videos/IVANFESENKO.ogg";
+import VideoPoster from "../images/videos/IVANFESENKO_poster.jpg";
 
 export default (
   url, 

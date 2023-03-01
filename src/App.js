@@ -103,9 +103,11 @@ import { css } from "styled-components/macro"; // eslint-disable-line
 // import MainLandingPage from "MainLandingPage.js";
 // import ThankYouPage from "ThankYouPage.js";
 
+// Import Routes
 import HomePage from "views/HomePage";
 import CommitteesPage from "views/CommitteesPage";
 import AwardsPage from "views/AwardsPage"
+import AwardsListPage from "views/AwardsListPage";
 import SpeakersPage from "views/SpeakersPage";
 import ProgramPage from "views/ProgramPage";
 import NewsPage from "views/NewsPage";
@@ -136,42 +138,19 @@ export default function App() {
         <Route path="/thank-you">
           <ThankYouPage />
         </Route> */}
-        <Route path="/committees">
-          <CommitteesPage/>
-        </Route>
-        <Route path="/awards">
-          <AwardsPage/>
-        </Route> 
-        <Route path="/speakers">
-          <SpeakersPage/>
-        </Route> 
-        <Route path="/program">
-          <ProgramPage/>
-        </Route> 
-        <Route path="/news">
-          <NewsPage/>
-        </Route> 
-        <Route path="/registration">
-          <RegistrationPage/>
-        </Route>
-        <Route path="/logistics">
-          <LogisticsPage/>
-        </Route>
-        <Route path="/download">
-          <TBAPage/>
-        </Route>
-        <Route path="/register">
-          <RegisterInfoPage/>
-        </Route>
-        <Route path="/signup">
-          <SignUpPage/>
-        </Route>
-        <Route path="/login">
-          <LogInPage/>
-        </Route>
-        <Route path="/">
-          <HomePage />
-        </Route>
+        <Route path="/committees"> <CommitteesPage/>  </Route>
+        <Route path="/awards"> <AwardsPage/> </Route> 
+        <Route path="/awardslist"> <AwardsListPage/> </Route>
+        <Route path="/speakers"> <SpeakersPage/> </Route> 
+        <Route path="/program"> <ProgramPage/> </Route> 
+        <Route path="/news"> <NewsPage/> </Route> 
+        <Route path="/registration"> <RegistrationPage/> </Route>
+        <Route path="/logistics"> <LogisticsPage/> </Route>
+        <Route path="/download"> <TBAPage/> </Route>
+        <Route path="/register"> <RegisterInfoPage/> </Route>
+        <Route path="/signup"> <SignUpPage/> </Route>
+        <Route path="/login"> <LogInPage/> </Route>
+        <Route path="/"> <HomePage /> </Route>
       </Switch>
     </Router>
   );
@@ -193,5 +172,4 @@ export default function App() {
 // export default BlogIndexPage;
 // export default TermsOfServicePage;
 // export default PrivacyPolicyPage;
-
 // export default MainLandingPage;

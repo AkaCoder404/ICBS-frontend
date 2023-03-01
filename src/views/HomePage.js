@@ -27,9 +27,7 @@ export default () => (
     {/* 顶部导航栏 */}
     <Header/>
 
-    <div style={{
-      marginBottom: 10,
-    }}></div>
+    <div style={{ marginBottom: 10 }}></div>
 
     {/* 轮播图组件 */}
     <Carousel />

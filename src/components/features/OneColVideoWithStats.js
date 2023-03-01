@@ -13,24 +13,11 @@ import {
 // Images
 import { ReactComponent as SvgDotPattern } from "images/svg/dot-pattern.svg";
 import Iccm2019Src from "images/home/iccm2019.png";
-// import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 import DefaultVideoEmbed from "helpers/DefaultVideoEmbed.js"; 
-// import XGPlayerVideoEmbed from "helpers/XGPlayerVideoEmbed.js";
-// import VideoTestSrc from "images/videos/icbs.mp4";
-
-
-const HomePageVideo = "../images/videos/icbs.mp4";
+import IvanFesenkoVideoEmbed from "helpers/IvenFesenkoVideoEmbed";
+import ShingTungYau from "helpers/ShingTungYau";
 
 // Tailwind CSS
-// const StyledResponsiveVideoEmbed = styled(ResponsiveVideoEmbed)`
-//   padding-bottom: 56.25% !important;
-//   padding-top: 0px !important;
-//   ${tw`rounded`}
-//   iframe {
-//     ${tw`rounded bg-black shadow-xl`}
-//   }
-// `;
-
 const Container = tw.div`relative`;
 const OneColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-12`;
 const ImageColumn =  tw.div`flex-shrink-0 md:h-auto relative text-center flex flex-col items-center`;
@@ -122,19 +109,13 @@ export default ({
 
          <ImageColumn>
           {/* {imageInsideDiv ? <Image imageSrc={imageSrc} css={imageCss} /> : <img src={imageSrc} css={imageCss} alt="" />} */}
-          {/* <ResponsiveVideoEmbed css={imageCss}
-              url = {HomePageVideo}
-              background = "transparent"
-          /> */}
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
-          <DefaultVideoEmbed css={imageCss}
-              url = {HomePageVideo}
-              background = "transparent"
-          />
-          {/* <XGPlayerVideoEmbed css={imageCss}
-              url = {HomePageVideo}
-              background = "transparent"
-          /> */}
+          <Subheading> Caucher Birkar </Subheading>
+          <DefaultVideoEmbed css={imageCss}/>
+          <Subheading> Ivan Fesenko </Subheading>
+          <IvanFesenkoVideoEmbed css={imageCss} />
+          <Subheading> ShingTungYau </Subheading>
+          <ShingTungYau css={imageCss} />
           <DecoratorBlob />
         </ImageColumn>
       </OneColumn>
