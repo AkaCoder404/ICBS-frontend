@@ -40,14 +40,14 @@ const DecoratorBlob3 = styled(SvgDecoratorBlob3)`
 const PrimaryButton = tw(PrimaryButtonBase)`-mt-8 text-sm inline-block mx-auto md:mx-0`;
 
 export default ({ 
-  heading = "Awards", 
-  subheading = "",
-  primaryButtonText = "See Award List",
-  primaryButtonUrl = "/#/awardslist",
+  // heading = "Awards", 
+  // subheading = "",
+  // primaryButtonText = "See Award List",
+  // primaryButtonUrl = "/#/awardslist",
 }) => {
   return (
     <Container>
-      <SingleColumn>
+      {/* <SingleColumn>
         <HeadingInfoContainer>
           <HeadingTitle>{heading}</HeadingTitle>
           <HeadingDescription>{subheading}</HeadingDescription>
@@ -68,7 +68,7 @@ export default ({
       </SingleColumn>
       <DecoratorBlob1 />
       <DecoratorBlob2 />
-      <DecoratorBlob3 />
+      <DecoratorBlob3 /> */}
     </Container>
   );
 };

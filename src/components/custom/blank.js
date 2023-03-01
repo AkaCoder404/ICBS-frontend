@@ -4,7 +4,7 @@ import tw from "twin.macro";
 
 // Custom Components
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+// import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import OneColWithSteps from "components/features/OneColWithSteps.js";
 import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid.js";
 
@@ -52,13 +52,19 @@ const DecoratorBlob3 = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none -z-20 absolute right-0 top-1/2 h-64 w-64 opacity-15 transform translate-x-1/2 text-primary-500`}
 `;
 
-const PrimaryButton = tw(PrimaryButtonBase)`-mt-8 text-sm inline-block mx-auto md:mx-0`;
+// const PrimaryButton = tw(PrimaryButtonBase)`-mt-8 text-sm inline-block mx-auto md:mx-0`;
 
 export default ({ 
   heading = "Awards", 
   subheading = "",
-  primaryButtonText = "See Award List",
+  primaryButtonText = "See Award Committees",
   primaryButtonUrl = "/#/awardslist",
+  mathematicsButtonText = "See Mathematics Award Committees",
+  physicsButtonText = "See Physics Award Committee",
+  technologyButtonText = "See Technology Award Committee",
+  mathematicsButtonUrl = "/#/awardslist",
+  physicsButtonUrl = "/#/awardslist",
+  technologyButtonUrl = "/#/awardslist",
 }) => {
   return (
     <Container>
@@ -101,11 +107,10 @@ export default ({
             description2={BestPaperAwardDesc2}
             steps={BestPaperAwardCategories}
             subheading={"Award"}
+            buttonTexts={[mathematicsButtonText, physicsButtonText, technologyButtonText]}
+            urls={[mathematicsButtonUrl, physicsButtonUrl, technologyButtonUrl]}
           />
 
-          <PrimaryButton as="a" href={primaryButtonUrl}>
-            {primaryButtonText}
-          </PrimaryButton>
         </Content>
       </SingleColumn>
       <DecoratorBlob1 />

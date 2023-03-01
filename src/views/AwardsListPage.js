@@ -37,7 +37,7 @@ export default () => (
   <AnimationRevealPage disabled>
     <Header />
     <TabCard 
-        heading = "Best Paper Awards Committee"
+        heading = "BPA Committees for Mathematics"
         tabs = {dataTabs}
     />
     <Footer />
