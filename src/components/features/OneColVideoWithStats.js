@@ -10,6 +10,9 @@ import {
   Subheading as SubheadingBase,
 } from "components/misc/Headings.js";
 
+// Constants
+import { HomePageIntroduction } from "utils/constants";
+
 // Images
 import { ReactComponent as SvgDotPattern } from "images/svg/dot-pattern.svg";
 import Iccm2019Src from "images/home/iccm2019.png";
@@ -48,18 +51,7 @@ export default ({
   ),
   description = (
     <p>
-      The inaugural International Congress of Basic Science (ICBS) shall be held
-      in Beijing during the week of July 16, 2023. This will be an annual
-      conference funded and hosted by the Beijing City government, as part of an
-      effort to strongly support and promote basic research in Sciences
-      worldwide. The conference shall include three different major subjects:
-      Mathematics, Theoretical Physics, Theoretical Computer and Information
-      Science. To celebrate and honor achievements of the world's scientific
-      community, two major awards — the Fundamental Science Lifetime Award, and
-      the Best Paper Award, shall be announced at the conference, we expect to
-      have 150+ distinguished speakers. We also expect leaders of China to
-      present the grand awards. The award ceremonies and the conference will
-      commence at the People's Hall of China on July 16.
+      {HomePageIntroduction}
     </p>
   ),
   imageSrc = Iccm2019Src,

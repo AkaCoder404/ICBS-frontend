@@ -9,34 +9,46 @@ import ImageCHISrc from "images/people/CHI.jpg";
 // import ImageQIUCHENGTONGSrc from "images/home/QiuChenTong.png"
 import imageIVENSrc from "images/people/IVEN.jpg";
 
+// Homepage text constants
+export const HomePageIntroduction =
+  "The inaugural International Congress of Basic Science (ICBS) shall be held in Beijing during the week of July 16, 2023. This will be an annual conference funded and hosted by the Beijing City government, as part of an effort to strongly support and promote basic research in Sciences worldwide. The conference shall include three different major subjects: Mathematics, Theoretical Physics, Theoretical Computer and Information Science. To celebrate and honor achievements of the world's scientific community, two major awards — the Fundamental Science Lifetime Award, and the Best Paper Award, shall be announced at the conference, we expect to have 300+ distinguished speakers. We also expect leaders of China to present the grand awards. The award ceremonies and the conference will commence at the People's Hall of China on July 16.";
+
 // Homepage card constants
 const ShingTungYao = {
   imageSrc: ImageSHINGTUNGSrc,
   position: "丘成桐",
   name: "Shing-Tung Yau",
+  chinese_name: "丘成桐",
   text: "Fields Medal recipient of 1982.",
+  school_chinese: "清华大学，中国",
+  school_english: "Tsinghua University, China",
 };
 
 const CaucherBirkar = {
   imageSrc: ImageCAUCHERSrc,
   position: "Caucher Birkar",
   name: "Caucher Birkar",
+  chinese_name: "Caucher Birkar",
   text: "Fields Medal recipient of 2018",
   school_chinese: "清华大学，中国",
-  school_english: "Tsinghua University, China"
+  school_english: "Tsinghua University, China",
 };
 
 const NicolaiReshetikhin = {
   imageSrc: ImageNICOLAISrc,
   position: "Nicolai Reshetikhin",
   name: "Nicolai Reshetikhin",
+  chinese_name: "Nicolai Reshetikhin",
   text: "Weyl-Wigner Award recipient of 2022",
+  school_english: 'Tsinghua University, China',
+  school_chinese: '清华大学，中国',
 };
 
 const DavidGross = {
   imageSrc: ImageDAVIDSrc,
   position: "David Gross",
   name: "David Gross",
+  chinese_name: "David Gross",
   text: "Nobel Laureate in Physics of 2004",
 };
 
@@ -44,6 +56,7 @@ const NimaArkaniHamed = {
   imageSrc: ImageNIMASrc,
   position: "Nima Arkani-Hamed",
   name: "Nima Arkani-Hamed",
+  chinese_name: "Nima Arkani-Hamed",
   text: "Breakthrough Prize recipient of 2012",
 };
 
@@ -51,14 +64,20 @@ const QionghaiDai = {
   imageSrc: ImageQIONGHAISrc,
   position: "戴琼海",
   name: "Qionghai Dai",
+  chinese_name: "戴琼海",
   text: "A member of the Chinese Academy of Engineering",
+  school_english: 'Tsinghua University, China',
+  school_chinese: '清华大学，中国',
 };
 
 const AndrewYao = {
   imageSrc: ImageCHISrc,
   position: "姚期智",
   name: "Andrew Yao",
+  chinese_name: "姚期智",
   text: "Turing Prize recipient of 2000",
+  school_english: 'Tsinghua University, China',
+  school_chinese: '清华大学，中国',
 };
 
 export const MathematicsCard = [
@@ -275,9 +294,9 @@ export const testimonials = [
   {
     imageSrc: ImageSHINGTUNGSrc,
     quote:
-      "Welcome to the International Congress of Basic Science. Best minds around the world will come together this July to understand the fundamental science in nature. We hope Best Paper Award will set a standard for the field of fundamental science，including mathematics, physics, computer science and engineer. We will give grand awards to major leaders of the fundamental science. ",
+      "Welcome to the International Congress of Basic Science. Best minds around the world will come together this July to understand the fundamental science in nature. We hope the Best Paper Award will set a standard for the field of fundamental science, including mathematics, physics, theoretical computer and information science. We will give grand awards to major leaders of the fundamental science.",
     customerName: "Shing-Tung Yau",
-    customerTitle: "Chair professor of Tsinghua University",
+    customerTitle: "Chair Professor of Tsinghua University",
   },
   {
     imageSrc: ImageCAUCHERSrc,
@@ -1146,8 +1165,6 @@ export const BPAMathematicsSubjectCommittee = [
   MathematicalOfStringTheoryAndCondensedMatter,
 ];
 
-
-
 // Global Committee of Best Paper Award (Mathematics)*
 // const BennySudakov = {
 //   name: "Benny Sudakov",
@@ -1156,9 +1173,9 @@ export const BPAMathematicsSubjectCommittee = [
 // }
 const WilliamHugWoodin = {
   name: "William Hug Woodin",
-  school_chinese :	"美国哈佛大学",
-  school_english: "Harvard University, USA"
-}
+  school_chinese: "美国哈佛大学",
+  school_english: "Harvard University, USA",
+};
 // const SugWooShin = {
 //   name: "Sug Wo Shin",
 //   school_chinese :	"美国加利福尼亚大学伯克利分校",
@@ -1166,14 +1183,14 @@ const WilliamHugWoodin = {
 // }
 const VyacheslaShokurov = {
   name: "Vyachesla Shokurov",
-  school_chinese :	"美国约翰霍普金斯大学",
-  school_english: "Johns Hopkins University, USA"
-}
+  school_chinese: "美国约翰霍普金斯大学",
+  school_english: "Johns Hopkins University, USA",
+};
 const CarloSimpson = {
   name: "Carlo Simpson",
-  school_chinese :	"法国蔚蓝海岸大学",
-  school_english: "Université Côte d'Azur, France"
-}
+  school_chinese: "法国蔚蓝海岸大学",
+  school_english: "Université Côte d'Azur, France",
+};
 // const YanSoibelman = {
 //   name: "Ya Soibelman",
 //   school_chinese :	"美国堪萨斯州立大学",
@@ -1181,9 +1198,9 @@ const CarloSimpson = {
 // }
 const DuongHonPhong = {
   name: "Duong Hon Phong",
-  school_chinese :	"美国哥伦比亚大学",
-  school_english: "Columbia University, USA"
-}
+  school_chinese: "美国哥伦比亚大学",
+  school_english: "Columbia University, USA",
+};
 // const BongLian = {
 //   name: "Bong Lian",
 //   school_chinese :	"美国布兰迪斯大学",
@@ -1308,35 +1325,35 @@ const DuongHonPhong = {
 //   school_english : 	"Tsinghua University, China"
 // }
 const IvanFesenko = {
-  name : "Ivan Fesenko",
-  school_chinese :	"英国华威大学",
-  school_english : 	"The University of Warwick, UK"
-}
+  name: "Ivan Fesenko",
+  school_chinese: "英国华威大学",
+  school_english: "The University of Warwick, UK",
+};
 const LanHsuanHuang = {
-  name : "Lan Hsuan Huang",
-  school_chinese :	"美国康涅狄格大学",
-  school_english : 	"University of Connecticut, USA"
-}
+  name: "Lan Hsuan Huang",
+  school_chinese: "美国康涅狄格大学",
+  school_english: "University of Connecticut, USA",
+};
 const YichaoTian = {
   name: "Yichao Tian",
-  school_chinese :	"中国科学院",	
-  school_english: "Chinese Academy of Science, China"
-}
+  school_chinese: "中国科学院",
+  school_english: "Chinese Academy of Science, China",
+};
 const ZhiweiYun = {
-  name : "Zhiwei Yun",
-  school_chinese :	"美国麻省理工学院",	
-  school_english: "Massachusetts Institute of Technology, USA"
-}
+  name: "Zhiwei Yun",
+  school_chinese: "美国麻省理工学院",
+  school_english: "Massachusetts Institute of Technology, USA",
+};
 const BhargavBhatt = {
   name: "Bhargav Bhatt",
-  school_chinese :	"美国密歇根大学",	
-  school_english: "University of Michigan, USA"
-}
+  school_chinese: "美国密歇根大学",
+  school_english: "University of Michigan, USA",
+};
 const ShingTungYau = {
   name: "Shing Tung Yau",
-  school_chinese :	"清华大学，中国",
-  school_english: "Tsinghua University, China"
-}
+  school_chinese: "清华大学，中国",
+  school_english: "Tsinghua University, China",
+};
 
 export const BPAMathematicsGlobalCommittee = [
   BennySudakov,
@@ -1375,91 +1392,281 @@ export const BPAMathematicsGlobalCommittee = [
   YichaoTian,
   ZhiweiYun,
   BhargavBhatt,
-  ShingTungYau
+  ShingTungYau,
 ];
 
 
-
-// Committee members
-const JengDawYu = {
+// BPA Mathematics Local Committee
+const DylanAllegritti = {
   imageSrc: "",
-  chinese_name: "余正道",
-  english_name: "Jeng-Daw YU",
-};
-const ZeqianChen = {
+  chinese_name: "Dylan Allegritti",
+  name: "Dylan Allegritti",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ChenglongBao = {
   imageSrc: "",
-  chinese_name: "陈泽乾",
-  english_name: "Zeqian CHEN",
-};
-const LixinCheng = {
+  chinese_name: "包承龙",
+  name: "Chenglong Bao",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ZhijieChen = {
   imageSrc: "",
-  chinese_name: "程立新",
-  english_name: "Lixin CHENG",
-};
-const QihuaWang = {
+  chinese_name: "陈志杰",
+  name: "Zhijie Chen",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const YitwahChueng = {
   imageSrc: "",
-  chinese_name: "王启华",
-  english_name: "Qihua WANG",
-};
-const BinXu = {
+  chinese_name: "张翼华",
+  name: "Yitwah Chueng",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const HanshengDiao = {
   imageSrc: "",
-  chinese_name: "许宾",
-  english_name: "Bin XU",
-};
-const RonggangShi = {
+  chinese_name: "刁晗生",
+  name: "Hansheng Diao",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const HonghaoGao = {
   imageSrc: "",
-  chinese_name: "石荣刚",
-  english_name: "Ronggang SHI",
-};
-const MingXiao = {
+  chinese_name: "高鸿灏",
+  name: "Honghao Gao",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const YongLin = {
   imageSrc: "",
-  chinese_name: "肖鸣",
-  english_name: "Ming XIAO",
-};
-const NgaiChingWong = {
+  chinese_name: "林勇",
+  name: "Yong Lin",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const JianfengLin = {
   imageSrc: "",
-  chinese_name: "黄毅青",
-  english_name: "Ngai-Ching WONG",
-};
-const FuTsunWei = {
+  chinese_name: "林剑锋",
+  name: "Jianfeng Lin",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ZhengweiLiu = {
   imageSrc: "",
-  chinese_name: "魏福村",
-  english_name: "Fu-Tsun WEI",
-};
-const GuohuaZhang = {
+  chinese_name: "刘正伟",
+  name: "Zhengwei Liu",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const PengShan = {
   imageSrc: "",
-  chinese_name: "张国华",
-  english_name: "Guohua ZHANG",
-};
-const YunZhao = {
+  chinese_name: "单芃",
+  name: "Peng Shan",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ZuoqiangShi = {
   imageSrc: "",
-  chinese_name: "赵云",
-  english_name: "Yun ZHAO",
-};
-
+  chinese_name: "史作强",
+  name: "Zuoqiang Shi",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const KazuyukiTanaka = {
+  imageSrc: "",
+  chinese_name: "Kazuyuki Tanaka",
+  name: "Kazuyuki Tanaka",
+  school_english: "Yanqi Lake Beijing Institute of Mathematical Sciences",
+  school_chinese: ""
+}
 const XuechengWang = {
   imageSrc: "",
   chinese_name: "王学成",
-  english_name: "Xuecheng WANG",
-};
+  name: "Xuecheng Wang",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const YunhuiWu = {
+  imageSrc: "",
+  chinese_name: "吴云辉",
+  name: "Yunhui Wu",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const JianXiao = {
+  imageSrc: "",
+  chinese_name: "肖健",
+  name: "Jian Xiao",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const JunyaYagi = {
+  imageSrc: "",
+  chinese_name: "Junya Yagi",
+  name: "Junya Yagi",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const XiaokuiYang = {
+  imageSrc: "",
+  chinese_name: "杨晓奎",
+  name: "Xiaokui Yang",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const FanYangF = {
+  imageSrc: "",
+  chinese_name: "杨帆（女）",
+  name: "Fan Yang (F)",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const FanYangM = {
+  imageSrc: "",
+  chinese_name: "杨帆（男）",
+  name: "Fan Yang (M)",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ChenglongYu = {
+  imageSrc: "",
+  chinese_name: "余成龙",
+  name: "Chenglong Yu",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const DingxinZhang = {
+  imageSrc: "",
+  chinese_name: "张鼎新",
+  name: "Dingxin Zhang",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+const ChengZhang = {
+  imageSrc: "",
+  chinese_name: "张城",
+  name: "Cheng Zhang",
+  school_english: "Tsinghua University",
+  school_chinese: "清华大学"
+}
+
+export const BPAMathematicsLocalCommittee = [
+  DylanAllegritti,
+  ChenglongBao,
+  ZhijieChen,
+  YitwahChueng,
+  HanshengDiao,
+  HonghaoGao,
+  YongLin,
+  JianfengLin,
+  ZhengweiLiu,
+  PengShan,
+  ZuoqiangShi,
+  KazuyukiTanaka,
+  XuechengWang,
+  YunhuiWu,
+  JianXiao,
+  JunyaYagi,
+  XiaokuiYang,
+  FanYangF,
+  FanYangM,
+  ChenglongYu,
+  DingxinZhang,
+  ChengZhang,
+]
+
+// Committee members
+// const JengDawYu = {
+//   imageSrc: "",
+//   chinese_name: "余正道",
+//   english_name: "Jeng-Daw YU",
+// };
+// const ZeqianChen = {
+//   imageSrc: "",
+//   chinese_name: "陈泽乾",
+//   english_name: "Zeqian CHEN",
+// };
+// const LixinCheng = {
+//   imageSrc: "",
+//   chinese_name: "程立新",
+//   english_name: "Lixin CHENG",
+// };
+// const QihuaWang = {
+//   imageSrc: "",
+//   chinese_name: "王启华",
+//   english_name: "Qihua WANG",
+// };
+// const BinXu = {
+//   imageSrc: "",
+//   chinese_name: "许宾",
+//   english_name: "Bin XU",
+// };
+// const RonggangShi = {
+//   imageSrc: "",
+//   chinese_name: "石荣刚",
+//   english_name: "Ronggang SHI",
+// };
+// const MingXiao = {
+//   imageSrc: "",
+//   chinese_name: "肖鸣",
+//   english_name: "Ming XIAO",
+// };
+// const NgaiChingWong = {
+//   imageSrc: "",
+//   chinese_name: "黄毅青",
+//   english_name: "Ngai-Ching WONG",
+// };
+// const FuTsunWei = {
+//   imageSrc: "",
+//   chinese_name: "魏福村",
+//   english_name: "Fu-Tsun WEI",
+// };
+// const GuohuaZhang = {
+//   imageSrc: "",
+//   chinese_name: "张国华",
+//   english_name: "Guohua ZHANG",
+// };
+// const YunZhao = {
+//   imageSrc: "",
+//   chinese_name: "赵云",
+//   english_name: "Yun ZHAO",
+// };
+
+// const XuechengWang = {
+//   imageSrc: "",
+//   chinese_name: "王学成",
+//   english_name: "Xuecheng WANG",
+// };
 
 
+// Caucher Birkar
+// Tsinghua University
 
+// 戴琼海
+// Qionghai Dai
+// Tsinghua University
+
+// Nicolai Reshetikhin
+// Tsinghua University
+
+// 姚期智
+// Andrew Chi-Chih Yao
+// Tsinghua University
+
+// 丘成桐
+// Shing-Tung Yau
+// Tsinghua University
 export const ScientificCommittee = {
-  name: "科学委员会",
+  name: "Scientific Committee",
+  chinese_name: "科学委员会",
   members: [
-    JengDawYu,
-    ZeqianChen,
-    LixinCheng,
-    QihuaWang,
-    BinXu,
-    RonggangShi,
-    MingXiao,
-    NgaiChingWong,
-    FuTsunWei,
-    GuohuaZhang,
-    YunZhao,
-    XuechengWang,
+    CaucherBirkar,
+    QionghaiDai,       
+    NicolaiReshetikhin,
+    AndrewYao,
+    ShingTungYao,
   ],
 };
 
@@ -1472,3 +1679,5 @@ export const OrganizingCommittee = {
   name: "组织委员会",
   members: [],
 };
+
+
