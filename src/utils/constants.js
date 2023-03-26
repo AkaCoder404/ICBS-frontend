@@ -11,7 +11,7 @@ import imageIVENSrc from "images/people/IVEN.jpg";
 
 // Homepage text constants
 export const HomePageIntroduction =
-  "The inaugural International Congress of Basic Science (ICBS) shall be held in Beijing during the week of July 16, 2023. This will be an annual conference funded and hosted by the Beijing City government, as part of an effort to strongly support and promote basic research in Sciences worldwide. The conference shall include three different major subjects: Mathematics, Theoretical Physics, Theoretical Computer and Information Science. To celebrate and honor achievements of the world's scientific community, two major awards — the Fundamental Science Lifetime Award, and the Best Paper Award, shall be announced at the conference, we expect to have 300+ distinguished speakers. We also expect leaders of China to present the grand awards. The award ceremonies and the conference will commence at the People's Hall of China on July 16.";
+  "The inaugural International Congress of Basic Science (ICBS) will be held in Beijing during the week of July 16, 2023. This will be an annual conference funded and hosted by the Beijing City government, as part of an effort to strongly support and promote basic research in the sciences worldwide. The conference will include three different major subjects: mathematics, theoretical physics, and theoretical computer and information science. To celebrate and honor the achievements of the world's scientific community, two major awards — the Fundamental Science Lifetime Award, and the Best Paper Award — will be announced at the conference. We expect to have 300+ distinguished speakers. We also expect leaders of China to present the grand awards. The award ceremonies and the conference will commence at the Great Hall of the People on July 16.";
 
 // Homepage card constants
 const ShingTungYao = {
@@ -763,6 +763,12 @@ const AndrasJuhasz = {
   school_chinese: "英国牛津大学",
   school_english: "University of Oxford, UK",
 };
+const AndrasStipsicz = {
+  name: "András Stipsicz",
+  school_chinese: "匈牙利中欧大学",
+  school_english: "Central European University"
+
+}
 const JohnEtnyre = {
   name: "John Etnyre",
   school_chinese: "美国佐治亚理工学院",
@@ -903,11 +909,11 @@ const GregMoore = {
 };
 
 // 1
-export const CombinatricsDescriteGeometryAndGraphTheory = {
-  name: "Combinatrics, Descrite Geometry and Graph Theory",
+export const CombinatoricsDescreteGeometryAndGraphTheory = {
+  name: "Combinatorics, Descrete Geometry and Graph Theory",
   panels: 5,
   anonymity: 1,
-  people: [BennySudakov, MichaelKrivelevich, AlexanderBobenko, PaulHorn],
+  people: [AlexanderBobenko, BennySudakov, MichaelKrivelevich, PaulHorn],
 };
 
 // 2
@@ -915,7 +921,7 @@ export const MathematicalLogicFoundationsAndCategoryTheory = {
   name: "Mathematical Logic, Foundations and Category Theory",
   panels: 4,
   anonymity: 0,
-  people: [TheodoreSlaman, WilliamHughWoodin, ChiTatChong, AndreasWeiermann],
+  people: [AndreasWeiermann, ChiTatChong, WilliamHughWoodin, TheodoreSlaman ],
 };
 
 // 3
@@ -923,7 +929,7 @@ export const NumberTheory = {
   name: "Number Theory",
   panels: 4,
   anonymity: 1,
-  people: [PierreColmez, DipendraPrasad, SugWooShin],
+  people: [DipendraPrasad, PierreColmez,  SugWooShin],
 };
 
 // 4
@@ -932,11 +938,11 @@ export const CommutativeAlgebraAndAlgebraicGeometry = {
   panels: 5,
   anonymity: 0,
   people: [
-    FedorBogomolov,
-    VyacheslavShokurov,
-    SpencerBloch,
-    ChristopherDerekHacon,
     CarlosSimpson,
+    ChristopherDerekHacon,
+    FedorBogomolov,
+    SpencerBloch,
+    VyacheslavShokurov,
   ],
 };
 
@@ -945,15 +951,15 @@ export const HomologicalAlgebraKTheoryAndNoncommutativeAlgebra = {
   name: "Homological Algebra, K-Theory and Noncommutative Algebra",
   panels: 3,
   anonymity: 0,
-  people: [YanSoibelman, BernhardKeller, AlexyBondal],
+  people: [AlexyBondal, BernhardKeller, YanSoibelman],
 };
 
 // 6
-export const OneAndSeveralVariablesComplexDynamicalSyste = {
-  name: "One and Several Variables Complex Dynamical Systems",
+export const OneAndSeveralComplexVariablesComplexDynamicalSystem = {
+  name: "One and Several Complex Variables, Complex Dynamical System",
   panels: 6,
   anonymity: 3,
-  people: [NgaimingMok, DuongHongPhong, BoBerndtsson],
+  people: [BoBerndtsson, DuongHongPhong, NgaimingMok],
 };
 
 // 7
@@ -961,7 +967,7 @@ export const OrdinaryDifferentialEquationsAndSpecialFunctionsAndDModule = {
   name: "Ordinary Differential Equations and Special Functions and D-Module",
   panels: 4,
   anonymity: 1,
-  people: [MasatoshiNoumi, ShinobuHosono, BongLian],
+  people: [BongLian, MasatoshiNoumi, ShinobuHosono],
 };
 
 // 8
@@ -970,12 +976,12 @@ export const PartialDifferentialEquations = {
   panels: 6,
   anonymity: 1,
   people: [
-    ZhoupingXin,
-    XuJiaWang,
+    ChenGuiQiang,
     IgorRodnianski,
     WilhelmSchlag,
+    XuJiaWang,
     YanGuo,
-    ChenGuiQiang,
+    ZhoupingXin,
   ],
 };
 
@@ -986,10 +992,10 @@ export const DynamicsSystemsErgodicTheoryAndDiophantineApproximation = {
   anonymity: 1,
   people: [
     AntonZorich,
-    ShrikrishnaGopalraoDani,
-    NikolayMoshchevitin,
-    VitalyBergelson,
     BassamFayad,
+    NikolayMoshchevitin,
+    ShrikrishnaGopalraoDani,
+    VitalyBergelson,
   ],
 };
 
@@ -999,11 +1005,11 @@ export const FourierAnalysisAndHarmonicAnalysis = {
   panels: 5,
   anonymity: 0,
   people: [
+    AlexIosevich,
+    ChangxingMiao,
     ChristopherSogge,
     GuozhenLu,
     YannickSire,
-    AlexIosevich,
-    ChangxingMiao,
   ],
 };
 
@@ -1012,7 +1018,7 @@ export const FunctionalAnalysisAndOperatorTheory = {
   name: "Functional Analysis and Operator Theory",
   panels: 6,
   anonymity: 3,
-  people: [YasuyukiKawahigashi, GuoliangYu, GeorgeArthurElliott],
+  people: [ GeorgeArthurElliott, GuoliangYu, YasuyukiKawahigashi],
 };
 
 // 12
@@ -1020,7 +1026,7 @@ export const CalculusOfVariationsAndOptimalControl = {
   name: "Calculus of Variations and Optimal Control",
   panels: 4,
   anonymity: 0,
-  people: [TristanCollins, CamilloDeLellis, AlessioFigalli, JunchengWei],
+  people: [AlessioFigalli, CamilloDeLellis, JunchengWei, TristanCollins],
 };
 
 // 13
@@ -1029,11 +1035,11 @@ export const GeneralRelativity = {
   panels: 5,
   anonymity: 0,
   people: [
-    PiotrChrusciel,
-    LarsAndersson,
-    SergiuKlainerman,
-    RobertWald,
     LanhsuanHuang,
+    LarsAndersson,
+    PiotrChrusciel,
+    RobertWald,
+    SergiuKlainerman,
   ],
 };
 
@@ -1045,9 +1051,9 @@ export const GeometricAnalysis = {
   people: [
     AkitoFutaki,
     BenAndrews,
-    WilliamMinicozzi,
     RafeMazzeo,
     ValentinoTosatti,
+    WilliamMinicozzi,
   ],
 };
 
@@ -1058,11 +1064,12 @@ export const AlgebraicAndGeometricTopology = {
   anonymity: 0,
   people: [
     BensonFarb,
-    MladenBestvina,
-    RalphCohen,
-    PeterMay,
-    ShmuelWeinberger,
     MikhailKhovanov,
+    MladenBestvina,
+    PeterMay,
+    RalphCohen,
+    ShmuelWeinberger,
+   
   ],
 };
 
@@ -1070,8 +1077,8 @@ export const AlgebraicAndGeometricTopology = {
 export const SymplecticAndDifferentialToplogy = {
   name: "Symplectic and Differential Toplogy",
   panels: 6,
-  anonymity: 3,
-  people: [MichaelHutchings, AndrasJuhasz, JohnEtnyre],
+  anonymity: 2,
+  people: [ AndrasJuhasz, AndrasStipsicz, JohnEtnyre, MichaelHutchings],
 };
 
 // 17
@@ -1081,9 +1088,9 @@ export const ProbabilityTheoryAndStochasticProcesses = {
   anonymity: 0,
   people: [
     GregoryFrancisLawler,
-    PaulBourgade,
-    LaszloErdos,
     JeanBertoin,
+    LaszloErdos,
+    PaulBourgade,
     TakashiKumagai,
   ],
 };
@@ -1093,7 +1100,7 @@ export const Statistics = {
   name: "Statistics",
   panels: 5,
   anonymity: 0,
-  people: [TzeLeungLai, JianqingFan, XihongLin, DonaldRubin, JunLiu],
+  people: [DonaldRubin, JunLiu, JianqingFan, TzeLeungLai, XihongLin],
 };
 
 // 19
@@ -1109,7 +1116,7 @@ export const DifferentialGeometry = {
   name: "Differential Geometry",
   panels: 4,
   anonymity: 2,
-  people: [VladimirMarkovic, SongSun],
+  people: [SongSun, VladimirMarkovic],
 };
 
 // 21
@@ -1118,35 +1125,35 @@ export const LieTheoryAndRepresentationTheory = {
   panels: 5,
   anonymity: 0,
   people: [
-    WilfriedSchmid,
-    RaphaëlRouquier,
     CatharinaStroppel,
-    OlivierSchiffmann,
     MichelFinkelberg,
+    OlivierSchiffmann,
+    RaphaëlRouquier,
+    WilfriedSchmid,
   ],
 };
 
 // 22
-export const MathematicalOfStringTheoryAndCondensedMatter = {
-  name: "Mathematical of String Theory and Condensed Matter",
+export const MathematicsOfStringTheoryAndCondensedMatter = {
+  name: "Mathematics of String Theory and Condensed Matter",
   panels: 5,
   anonymity: 0,
   people: [
-    KenjiFukaya,
     DanielStuartFreed,
+    GregMoore,
+    KenjiFukaya,
     KevinJosephCostello,
     SergeiGukov,
-    GregMoore,
   ],
 };
 
 export const BPAMathematicsSubjectCommittee = [
-  CombinatricsDescriteGeometryAndGraphTheory,
+  CombinatoricsDescreteGeometryAndGraphTheory,
   MathematicalLogicFoundationsAndCategoryTheory,
   NumberTheory,
   CommutativeAlgebraAndAlgebraicGeometry,
   HomologicalAlgebraKTheoryAndNoncommutativeAlgebra,
-  OneAndSeveralVariablesComplexDynamicalSyste,
+  OneAndSeveralComplexVariablesComplexDynamicalSystem,
   OrdinaryDifferentialEquationsAndSpecialFunctionsAndDModule,
   PartialDifferentialEquations,
   DynamicsSystemsErgodicTheoryAndDiophantineApproximation,
@@ -1162,7 +1169,7 @@ export const BPAMathematicsSubjectCommittee = [
   NumericalAnalysisAndScientificComputation,
   DifferentialGeometry,
   LieTheoryAndRepresentationTheory,
-  MathematicalOfStringTheoryAndCondensedMatter,
+  MathematicsOfStringTheoryAndCondensedMatter,
 ];
 
 // Global Committee of Best Paper Award (Mathematics)*

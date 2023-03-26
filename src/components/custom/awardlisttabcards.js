@@ -27,6 +27,7 @@ const TabControl = styled.div`
 const TabContent = tw(motion.div)`mt-6 flex flex-wrap sm:-mr-10 md:-mr-6 lg:-mr-12`;
 const CardGroup = tw.div`display: inline-block mb-10 w-full`;
 const CardHeader = tw(SubheadingBase)`text-center md:text-left`;
+const CardHeaderDescription = tw.p`mt-2 text-sm text-gray-600 text-center md:text-left`;
 const Cards = tw.div`flex flex-wrap sm:-mr-10 md:-mr-6 lg:-mr-12`;
 const CardContainer = tw.div`mt-10 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 sm:pr-10 md:pr-6 lg:pr-12`;
 const Card = tw(
@@ -116,7 +117,10 @@ export default ({ heading = "", tabs }) => {
           >
             {tabs[tabKey].map((group, index2) => (
               <CardGroup key={index2}>
-                <CardHeader>{group.title}</CardHeader>
+                <CardHeader>{group.title}  
+                  { group.judges ? <CardHeaderDescription>{group.judges} Judges, {group.anonymous} Anonymous </CardHeaderDescription> : null }
+                </CardHeader>
+               
                 <Cards>
                 {group.content.map((item, index3) => (
                   <CardContainer key={index3}>

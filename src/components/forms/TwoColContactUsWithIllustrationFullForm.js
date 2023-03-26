@@ -26,7 +26,7 @@ const Subheading = tw(SubheadingBase)`text-center md:text-left`;
 const Heading = tw(SectionHeading)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`
 
-const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col max-w-sm mx-auto md:mx-0`
+const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col max-w-sm mx-auto md:mx-0 invisible`
 const Input = tw.input`mt-6 first:mt-0 border-b-2 py-3 focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
 const Textarea = styled(Input).attrs({as: "textarea"})`
   ${tw`h-24`}
@@ -39,7 +39,7 @@ const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
 export default ({
   subheading = "Registration",
   heading = <>一键完成<span tw="text-primary-500">注册</span><wbr/>操作</>,
-  description = <>Online Registration Deadline : To be announced...<p/>Onsite Registration is not accepted</>,
+  description = <>Online Registration Deadline : To be announced...</>,
   submitButtonText = "Suspension of registration",
   // formAction = "/#/signup",
   formAction = "http://iccm.tsinghua.edu.cn/manager/user/register/",

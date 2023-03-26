@@ -106,7 +106,7 @@ export default ({
           <DefaultVideoEmbed css={imageCss}/>
           <Subheading> Ivan Fesenko </Subheading>
           <IvanFesenkoVideoEmbed css={imageCss} />
-          <Subheading> ShingTungYau </Subheading>
+          <Subheading> Shing-Tung Yau </Subheading>
           <ShingTungYau css={imageCss} />
           <DecoratorBlob />
         </ImageColumn>

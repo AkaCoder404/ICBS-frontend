@@ -7,4 +7,4 @@ Combinatorics, Discrete Geometry, and Graph theory（5 panels ，1 anonymity）	
 Mathematical Logic, Foundations and Category Theory（4 panels）	Theodore Slaman	美国加利福尼亚大学伯克利分校
 	William Hugh Woodin	美国哈佛大学
 	Chi Tat Chong	新加坡国立大学
-	Andreas Weiermann 	荷兰根特大学
+Andreas Weiermann 	荷兰根特大学

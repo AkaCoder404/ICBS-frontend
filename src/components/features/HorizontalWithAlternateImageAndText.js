@@ -44,47 +44,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   heading = "Awards",
   subheading = "",
-  cards = [
-    // {
-    //   turnleft: false,
-    //   imageSrc: ImageGoldSrc,
-    //   // subtitle: "Paid",
-    //   title: "ICCM Medal of Mathematics and Applied Mathematics",
-    //   description:
-    //     "The ICCM Medal of Mathematics is awarded to outstanding mathematicians of Chinese descent to encourage them in their pursuit of mathematical truth. Up to six medals, two gold and four silver, are awarded every three years at the International Congress of Chinese Mathematicians. The ICCM Medals also carry a cash award of US $25,000 for each of the gold medalists; and US $ 10,000 for each of the silver medalists. A committee of internationally renowned mathematicians, chaired by Professor Shing-Tung Yau, selects the medalists.In addition to the name of medalists, each gold and silver medal has the image of a Möbius band and a fundamental domain. They were chosen not only for the simplicity of the image, but also because of their significant contributions to the development of mathematics in 20th century.    The Möbius band (also known as the Möbius strip) was discovered in 1858 by the German mathematician and astronomer August Ferdinand Möbius. This curious one-sided surface does not have any orientation, yet has a distinct topographical character. It was one of the most important discoveries of the 20th century, which has profoundly influenced modern physics, classical physics as well as modern mathematics, including geometry.\nA fundamental domain is related to the concept of a group, which can be used to express symmetry in mathematics. During the late 19th century, infinite discrete group was studied but only until the 20th century, did it become a main subject area in mathematics. This field of study is not only important in geometry but also in number theory. Practically all the famous developments in modern number theory are related to concepts of fundamental domain and discrete group.",
-    //   // url: "https://timerse.com"
-    // },
-
-    // {
-    //   turnleft: true,
-    //   imageSrc: ImageSilverSrc,
-    //   // subtitle: "Free",
-    //   title: "ICCM Medals of Mathematics Selection Committee",
-    //   description:
-    //     "The selection committee for the ICCM Medal of Mathematics is chaired by Professor Shing-Tung Yau. A nomination committee for the ICCM Medal of Mathematics, comprising a maximum of fifty Chinese mathematicians worldwide, nominates individuals based on their research, qualifications, and vita. Subsequently, the nomination committee submits the names of the nominated individuals, along with supporting materials, to the selection committee. After a thorough multi-step review, the selection committee, comprising leading mathematicians with diﬀerent research interest, makes a final decision. All the members of the selection committee, with the exception of the committee chair, are non-Chinese, thereby ensuring the independence and integrity of their decision.",
-    //   // url: "https://timerse.com"
-    // },
-
-    // {
-    //   turnleft: false,
-    //   imageSrc: ImageChernPrizeSrc,
-    //   // subtitle: "Exclusive",
-    //   title: "The Chern Prize",
-    //   description:
-    //     "The Chern Prize in mathematics was established in 2001 in honor of Professor Shing-Shen Chern, one of the greatest geometers and Chinese mathematicians of the twentieth century. The Chern Prize is presented every three years to mathematicians of Chinese descent who have made exceptional contributions to mathematical research or to public service activities in support of mathematics.",
-    //   // url: "https://timerse.com"
-    // },
-
-    // {
-    //   turnleft: true,
-    //   imageSrc: ImageInternationalSrc,
-    //   // subtitle: "Free",
-    //   title: "The ICCM International Cooperation Award",
-    //   description:
-    //     "The ICCM International Cooperation Award is presented to an individual who has promoted the development of mathematics in China, Hong Kong, and Taiwan through collaboration, teaching, and support of Chinese mathematicians. The inaugural award was presented at the Third International Congress of Chinese Mathematicians in 2004. The Selection Committee for the ICCM International Cooperation Award in 2004 was chaired by Professor Shing-Tung Yau, President of the International Congress of Chinese Mathematicians.",
-    //   // url: "https://timerse.com"
-    // }
-  ],
+  cards = [],
 }) => {
   return (
     <Container>

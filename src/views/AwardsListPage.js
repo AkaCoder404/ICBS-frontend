@@ -16,6 +16,8 @@ function createTabs() {
     const item = BPAMathematicsSubjectCommittee[i];
     dataTabs.push({
       title: item.name,
+      judges: item.panels,
+      anonymous: item.anonymity,
       content: item.people,
     });
   }
