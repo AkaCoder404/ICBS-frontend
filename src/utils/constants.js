@@ -909,8 +909,8 @@ const GregMoore = {
 };
 
 // 1
-export const CombinatoricsDescreteGeometryAndGraphTheory = {
-  name: "Combinatorics, Descrete Geometry and Graph Theory",
+export const CombinatoricsDiscreteGeometryAndGraphTheory = {
+  name: "Combinatorics, Discrete Geometry and Graph Theory",
   panels: 5,
   anonymity: 1,
   people: [AlexanderBobenko, BennySudakov, MichaelKrivelevich, PaulHorn],
@@ -1148,7 +1148,7 @@ export const MathematicsOfStringTheoryAndCondensedMatter = {
 };
 
 export const BPAMathematicsSubjectCommittee = [
-  CombinatoricsDescreteGeometryAndGraphTheory,
+  CombinatoricsDiscreteGeometryAndGraphTheory,
   MathematicalLogicFoundationsAndCategoryTheory,
   NumberTheory,
   CommutativeAlgebraAndAlgebraicGeometry,
