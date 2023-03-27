@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+import { useHistory } from "react-router-dom";
 // import EmailIllustrationSrc from "images/email-illustration.svg";
 import RegistrationImageSrc from "images/registration/registration.png"
 
@@ -46,8 +47,18 @@ export default ({
   formMethod = "get",
   textOnLeft = true,
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
+  // eslint-disable-next-line
+  let history = useHistory();
+  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
+  const OnClickPoster = () => {
+    // console.log("Click Poster");
+    // // Navigate to the poster session page @ http://icbs.cn/postersession using navigate
+    // history.push("/postersession");
+    window.location.href = "http://icbs.cn/postersession";
+  }
+  
+  
   return (
     <Container>
       <TwoColumn>
@@ -59,6 +70,8 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
+            <SubmitButton onClick={OnClickPoster} >Apply for the Poster Session</SubmitButton>
+
             {/* <Link href="/#/register"> View more </Link> */}
             <Form action={formAction} method={formMethod}>
               <Input type="email" name="email" placeholder="Email Address" />
