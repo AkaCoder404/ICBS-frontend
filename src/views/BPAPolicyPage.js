@@ -83,7 +83,7 @@ export default () => (
 
                         <p>If the paper in question is recommended by one (or more) selection committee to enter the next round, the committee member who (co-)authored it can request (in writing to the co-chairs of the ICBS) to withdraw the paper from award consideration. The selection committee that has recommended that paper shall then be asked to consider the issue of balancing the interests of the other co-authors (if any) of that paper, against the appearance of possible conflict of interests. Upon careful consideration, this selection committee shall then decide if that paper should enter the next round for an award.</p>
 
-                        <p>The ICBS reserves the right to revoke an award, <span style={{fontSize: "20px", fontWeight: "bold"}}>if the ICBS determines that the process of nomination or recommendation of a paper for a BPA, has violated the policy stated above. The ICBS's decision on this shall be final.</span></p>
+                        <p>The ICBS reserves the right to revoke an award, if the ICBS determines that the process of nomination or recommendation of a paper for a BPA, has violated the policy stated above. The ICBS's decision on this shall be final.</p>
                     </Text>
                 </Content>
             </SingleColumn>
