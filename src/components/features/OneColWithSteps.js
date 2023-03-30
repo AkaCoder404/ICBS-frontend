@@ -46,6 +46,7 @@ const StepText = tw.div`mt-3 md:mt-0 md:ml-6`;
 const StepHeading = tw.h6`leading-none text-xl font-semibold`;
 const StepDescription = tw.p`mt-3  leading-loose text-sm text-gray-600 font-medium`;
 const StepsButton = tw(PrimaryButtonBase)`ml-16 mt-4 w-80 text-sm`;
+// const Button = tw(PrimaryButtonBase)`mt-4 w-80 text-sm`;
 // const StepsButton = tw.button`px-8 py-3 font-bold rounded bg-primary-500 text-gray-100 hocus:bg-primary-700 hocus:text-gray-200 focus:shadow-outline focus:outline-none transition duration-300  mt-4 w-80 text-sm`;
 export default ({
   subheading = "Our Expertise",
@@ -116,7 +117,8 @@ export default ({
           </Steps>
         </TextContent>
         {/* </TextColumn> */}
-          { heading === "The Best Paper Award (BPA)" ? <a style={{color: 'blue'}} href="/#/bpapolicy"> Policy on Conflict of Interest </a> : null }
+          {/* { heading === "The Best Paper Award (BPA)" ? <Button> <a style={{color: "#edf2f7"}} href="/#/bpapolicy"> Policy on Conflict of Interest </a> </Button> : null } */}
+          { heading === "The Best Paper Award (BPA)" ? <> <br/> <br/> <StepHeading> <a style={{border: "1 0 black"}} href="/#/bpapolicy"> Policy on Conflict of Interest </a> </StepHeading> </>: null }
       </OneColumn>
     </Container>
   );
