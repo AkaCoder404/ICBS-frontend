@@ -114,9 +114,9 @@ export default ({
               </StepGroup>
             ))}
           </Steps>
-          <Description>{description2}</Description>
         </TextContent>
         {/* </TextColumn> */}
+          { heading === "The Best Paper Award (BPA)" ? <a style={{color: 'blue'}} href="/#/bpapolicy"> Policy on Conflict of Interest </a> : null }
       </OneColumn>
     </Container>
   );

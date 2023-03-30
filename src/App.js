@@ -118,6 +118,7 @@ import RegisterInfoPage from "views/RegisterInfoPage";
 import SignUpPage from "views/SignUpPage";
 import LogInPage from "views/LogInPage";
 import TBAPage from "views/TBAPage";
+import BPAPolicyPage from "views/BPAPolicyPage";
 
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -141,6 +142,7 @@ export default function App() {
         <Route path="/committees"> <CommitteesPage/>  </Route>
         <Route path="/awards"> <AwardsPage/> </Route> 
         <Route path="/awardslist"> <AwardsListPage/> </Route>
+        <Route path="/bpapolicy"> <BPAPolicyPage/> </Route>
         <Route path="/speakers"> <SpeakersPage/> </Route> 
         <Route path="/program"> <ProgramPage/> </Route> 
         <Route path="/news"> <NewsPage/> </Route> 
@@ -151,6 +153,9 @@ export default function App() {
         <Route path="/signup"> <SignUpPage/> </Route>
         <Route path="/login"> <LogInPage/> </Route>
         <Route path="/"> <HomePage /> </Route>
+
+        {/* Special Pages */}
+        {/* <Route path="/bpapolicy"> <BPAPolicyPage/> </Route> */}
       </Switch>
     </Router>
   );

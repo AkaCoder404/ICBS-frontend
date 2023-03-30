@@ -258,15 +258,12 @@ export const BestPaperAwardDesc =
 export const BestPaperAwardDesc2 = (
   <>
     <p>
-      Each year, recipients of a Best Paper Award winning paper shall be invited
-      to lecture at the International Congress of Basic Science, to be held in
-      Beijing in the summer of that year. At least one author of the paper must
-      be present at the ICBS, to accept the award. Upon the acceptance of the
-      award, authors of a winning paper shall receive a total sum of USD25,000.
-      Details of the rules and regulations governing this award and
-      disbursements of funds are stated in an award notification. The year 2023
-      shall be the inaugural year for the BPA. Awards shall be announced in
-      Spring 2023, and presented at the ICBS in Beijing in July 2023.
+      Policy on Conflict of Interest - the Best Paper Award
+    </p>
+    <br/>
+    <p>
+      While an individual cannot vote to nominate or recommend a paper he/she (co-)authors for a BPA award, if he/she is a committee member, that paper may still be considered for a BPA by one selection committee or another. To strike a balance between the integrity of the selection process, and the interests of co-authors of a BPA paper, the following policy shall apply:
+      If the paper in question is recommended by one (or more) selection committee to enter the next round, the committee member who (co-)authored it can request (in writing to the co-chairs of the ICBS) to withdraw the paper from award consideration. The selection committee that has recommended that paper shall then be asked to consider the issue of balancing the interests of the other co-authors (if any) of that paper, against the appearance of possible conflict of interests. Upon careful consideration, this selection committee shall then decide if that paper should enter the next round for an award.
     </p>
   </>
 );
@@ -921,7 +918,7 @@ export const MathematicalLogicFoundationsAndCategoryTheory = {
   name: "Mathematical Logic, Foundations and Category Theory",
   panels: 4,
   anonymity: 0,
-  people: [AndreasWeiermann, ChiTatChong, WilliamHughWoodin, TheodoreSlaman ],
+  people: [AndreasWeiermann, ChiTatChong, WilliamHughWoodin, TheodoreSlaman],
 };
 
 // 3
@@ -929,7 +926,7 @@ export const NumberTheory = {
   name: "Number Theory",
   panels: 4,
   anonymity: 1,
-  people: [DipendraPrasad, PierreColmez,  SugWooShin],
+  people: [DipendraPrasad, PierreColmez, SugWooShin],
 };
 
 // 4
@@ -1018,7 +1015,7 @@ export const FunctionalAnalysisAndOperatorTheory = {
   name: "Functional Analysis and Operator Theory",
   panels: 6,
   anonymity: 3,
-  people: [ GeorgeArthurElliott, GuoliangYu, YasuyukiKawahigashi],
+  people: [GeorgeArthurElliott, GuoliangYu, YasuyukiKawahigashi],
 };
 
 // 12
@@ -1069,7 +1066,7 @@ export const AlgebraicAndGeometricTopology = {
     PeterMay,
     RalphCohen,
     ShmuelWeinberger,
-   
+
   ],
 };
 
@@ -1078,7 +1075,7 @@ export const SymplecticAndDifferentialToplogy = {
   name: "Symplectic and Differential Toplogy",
   panels: 6,
   anonymity: 2,
-  people: [ AndrasJuhasz, AndrasStipsicz, JohnEtnyre, MichaelHutchings],
+  people: [AndrasJuhasz, AndrasStipsicz, JohnEtnyre, MichaelHutchings],
 };
 
 // 17
@@ -1670,7 +1667,7 @@ export const ScientificCommittee = {
   chinese_name: "科学委员会",
   members: [
     CaucherBirkar,
-    QionghaiDai,       
+    QionghaiDai,
     NicolaiReshetikhin,
     AndrewYao,
     ShingTungYao,
